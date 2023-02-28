@@ -2,8 +2,14 @@
 ---
 ## nMap
 ---
-
-
+- Vulnerability Script Nmap SE
+```bash
+sudo nmap 10.129.15.75 -p 80 -sV --script vuln
+```
+- Decoy IP Nmap
+```bash
+sudo nmap 10.129.2.28 -p 80 -sS -Pn -n --disable-arp-ping --packet-trace -D RND:5
+```
 
 ---
 ## Gobuster
