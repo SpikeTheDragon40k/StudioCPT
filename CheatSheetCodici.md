@@ -4,11 +4,11 @@
 ---
 - Vulnerability Script Nmap SE
 ```bash
-sudo nmap 10.129.15.75 -p 80 -sV --script vuln
+sudo nmap $IP -sV --script vuln
 ```
 - Decoy IP Nmap
 ```bash
-sudo nmap 10.129.2.28 -p 80 -sS -Pn -n -D RND:5
+sudo nmap $IP -sS -Pn -n -D RND:5
 ```
 
 ---
