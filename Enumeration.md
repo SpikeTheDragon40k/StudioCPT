@@ -16,3 +16,26 @@
 ---
 
 ![Labirinto](/Images/pentest-labyrinth.png "The squares represent the gaps/vulnerabilities.")
+
+---
+# Layers
+
+## Layer No.1: Internet Presence
+### Goal: Identify all possible target systems and interfaces that can be tested.
+***
+## Layer No.2: Gateway
+### Goal: Understand what we are dealing with and what we have to watch out for.
+***
+## Layer No.3: Accessible Services
+### Goal: This layer aims to understand the reason and functionality of the target system and gain the necessary knowledge to communicate with it and exploit it for our purposes effectively.
+***
+## Layer No.4: Processes
+### Goal: Understand these factors and identify the dependencies between them.
+***
+## Layer No.5: Privileges
+### Goal: It is crucial to identify these and understand what is and is not possible with these privileges.
+***
+## Layer No.6: OS Setup
+### Goal: See how the administrators manage the systems and what sensitive internal information we can glean from them.
+
+---
