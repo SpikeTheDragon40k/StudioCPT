@@ -48,6 +48,10 @@
 
 ---
 
+[Shodan.io](https://www.shodan.io/) Searches system and devices permanently connected to the Internet like IOT.
+
+---
+
 
 # Distros
 ---

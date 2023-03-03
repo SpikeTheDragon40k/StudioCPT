@@ -2,7 +2,7 @@
 ---
 ![Enumerate](/Images/enum-method3.png "Enumerate all the things")
 
----
+
 
 | Layer | Description | Information Categories|
 | ---------- |---------------------------|---------------------------|
@@ -13,7 +13,7 @@
 | Privileges | Identification of the internal permissions and privileges to the accessible services. | Groups, Users, Permissions, Restrictions, Environment |
 | OS Setup | Identification of the internal components and systems setup. | OS Type, Patch Level, Network config, OS Environment, Configuration files, sensitive private files |
 
----
+
 
 ![Labirinto](/Images/pentest-labyrinth.png "The squares represent the gaps/vulnerabilities.")
 
@@ -46,3 +46,16 @@
 ## Online Presence
 - The first point of presence on the Internet may be the SSL certificate from the company's main website that we can examine.
 ![Domain Info SSL](/Images/DomInfo-1.png "Domain Info SSL Certificate")
+
+- Check Certificate Term Json
+```bash
+curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq .
+```
+- Check Certificate Unique Subdomain
+```bash
+curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq . | grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
+```
+---
+
+# Cloud Resources
+

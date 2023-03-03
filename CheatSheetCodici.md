@@ -59,3 +59,13 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 ```bash
 xsltproc all.xml -o all.html (nmap xml to html)
 ```
+---
+## SSL Certificate
+- Check Certificate Term Json
+```bash
+curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq .
+```
+- Check Certificate Unique Subdomain
+```bash
+curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq . | grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
+```
