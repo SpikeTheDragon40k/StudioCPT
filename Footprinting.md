@@ -170,3 +170,46 @@ drwxrwxr-x    2 1002     1002         4096 Sep 14 16:50 Employees
 226 Directory send OK.
 
 ```
+
+If this setting is turned on we can use recursive Listing "ls_recurse_enable=YES".
+
+```bash
+ftp> ls -R
+
+---> PORT 10,10,14,4,222,149
+200 PORT command successful. Consider using PASV.
+---> LIST -R
+150 Here comes the directory listing.
+.:
+-rw-rw-r--    1 ftp      ftp      8138592 Sep 14 16:54 Calender.pptx
+drwxrwxr-x    2 ftp      ftp         4096 Sep 14 17:03 Clients
+drwxrwxr-x    2 ftp      ftp         4096 Sep 14 16:50 Documents
+drwxrwxr-x    2 ftp      ftp         4096 Sep 14 16:50 Employees
+-rw-rw-r--    1 ftp      ftp           41 Sep 14 16:45 Important Notes.txt
+-rw-------    1 ftp      ftp            0 Sep 15 14:57 testupload.txt
+
+./Clients:
+drwx------    2 ftp      ftp          4096 Sep 16 18:04 HackTheBox
+drwxrwxrwx    2 ftp      ftp          4096 Sep 16 18:00 Inlanefreight
+
+./Clients/HackTheBox:
+-rw-r--r--    1 ftp      ftp         34872 Sep 16 18:04 appointments.xlsx
+-rw-r--r--    1 ftp      ftp        498123 Sep 16 18:04 contract.docx
+-rw-r--r--    1 ftp      ftp        478237 Sep 16 18:04 contract.pdf
+-rw-r--r--    1 ftp      ftp           348 Sep 16 18:04 meetings.txt
+
+./Clients/Inlanefreight:
+-rw-r--r--    1 ftp      ftp         14211 Sep 16 18:00 appointments.xlsx
+-rw-r--r--    1 ftp      ftp         37882 Sep 16 17:58 contract.docx
+-rw-r--r--    1 ftp      ftp            89 Sep 16 17:58 meetings.txt
+-rw-r--r--    1 ftp      ftp        483293 Sep 16 17:59 proposal.pptx
+
+./Documents:
+-rw-r--r--    1 ftp      ftp         23211 Sep 16 18:05 appointments-template.xlsx
+-rw-r--r--    1 ftp      ftp         32521 Sep 16 18:05 contract-template.docx
+-rw-r--r--    1 ftp      ftp        453312 Sep 16 18:05 contract-template.pdf
+
+./Employees:
+226 Directory send OK.
+```
+

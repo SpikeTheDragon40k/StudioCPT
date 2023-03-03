@@ -10,6 +10,18 @@ sudo nmap $IP -sV --script vuln
 ```bash
 sudo nmap $IP -sS -Pn -n -D RND:5
 ```
+- Update Script DB
+```bash
+sudo nmap --script-updatedb
+```
+- Find Scripts for nMap
+```bash
+find / -type f -name $INPUT* 2>/dev/null | grep scripts
+```
+- FTP Scan with Scripts
+```bash
+sudo nmap -sV -p21 -sC -A 10.129.14.136
+```
 
 ---
 ## Gobuster
@@ -68,4 +80,21 @@ curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq .
 - Check Certificate Unique Subdomain
 ```bash
 curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq . | grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
+```
+---
+## FTP
+- Download All Available Files
+```bash
+wget -m --no-passive ftp://anonymous:anonymous@$IP
+
+```
+- Recursive Listing
+```bash
+ls -R
+```
+---
+## Various
+- Lista Folder
+```bash
+tree $PATH
 ```
