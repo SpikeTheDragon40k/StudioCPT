@@ -64,6 +64,8 @@
 
 ---
 
+[The Most Popular Types of DNS Attacks](https://securitytrails.com/blog/most-popular-types-dns-attacks)
+
 
 
 # Distros

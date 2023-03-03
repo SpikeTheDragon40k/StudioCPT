@@ -107,7 +107,11 @@ cat /etc/samba/smb.conf | grep -v "#\|\;"
 ```bash
 smbclient -N -L //$IP
 ```
-
+## Network File System (NFS)
+- Enumerate
+```bash
+sudo nmap 10.129.9.119 -p111,2049 -sV -sC
+```
 ---
 ## Various
 - Lista Folder

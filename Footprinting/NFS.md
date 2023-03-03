@@ -3,7 +3,7 @@
 ## Enumeration
 - Nmap enumeration
 ```bash
-AdrianoInghihwg@htb[/htb]$ sudo nmap 10.129.14.128 -p111,2049 -sV -sC
+xxxxxxxxxxxxxx@htb[/htb]$ sudo nmap 10.129.14.128 -p111,2049 -sV -sC
 
 Starting Nmap 7.80 ( https://nmap.org ) at 2021-09-19 17:12 CEST
 Nmap scan report for 10.129.14.128
@@ -66,3 +66,7 @@ xxxxxxxxxxxxx@htb[/htb]$ tree .
 2 directories, 3 files
 ```
 
+## Unmounting
+```bash
+sudo umount ./target-NFS
+```
