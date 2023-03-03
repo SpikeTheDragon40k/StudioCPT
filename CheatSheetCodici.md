@@ -22,7 +22,10 @@ find / -type f -name $INPUT* 2>/dev/null | grep scripts
 ```bash
 sudo nmap -sV -p21 -sC -A 10.129.14.136
 ```
-
+- SMB Scan with Scripts
+```bash
+sudo nmap $IP -sV -sC -p139,445
+```
 ---
 ## Gobuster
 ---
@@ -92,6 +95,19 @@ wget -m --no-passive ftp://anonymous:anonymous@$IP
 ```bash
 ls -R
 ```
+---
+## SMB (Samba)
+
+- Get Smb config
+```bash
+cat /etc/samba/smb.conf | grep -v "#\|\;" 
+```
+
+- List Server's Shares with Null Session (-N) that is an anonymous access.
+```bash
+smbclient -N -L //$IP
+```
+
 ---
 ## Various
 - Lista Folder
