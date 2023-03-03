@@ -4,15 +4,15 @@
 
 ---
 
-[RevShell Builder](https://www.revshells.com/)
+[RevShell Builder](https://www.revshells.com/) - Easy Revshell builder
 
 ---
 
-[CyberChef](https://gchq.github.io/CyberChef/)
+[CyberChef](https://gchq.github.io/CyberChef/) - Decoder and Encoder etc.
 
 ---
 
-[ExploitDB](https://www.exploit-db.com/)
+[ExploitDB](https://www.exploit-db.com/) - Exploit Finder
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-[SecList](https://github.com/danielmiessler/SecLists)
+[SecList](https://github.com/danielmiessler/SecLists) - Wordlists
 
 ---
 
@@ -32,7 +32,7 @@
 
 ---
 
-[Crackstation](https://crackstation.net/)
+[Crackstation](https://crackstation.net/) - Hash Cracks
 
 ---
 
@@ -43,6 +43,11 @@
 [PTES](http://www.pentest-standard.org/index.php/Main_Page)
 
 ---
+
+[crt.sh](https://crt.sh/) Certificate Transparency - Check Subdomains
+
+---
+
 
 # Distros
 ---
