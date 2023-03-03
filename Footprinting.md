@@ -45,4 +45,4 @@
 - However, when passively gathering information, we can use third-party services to understand the company better. However, the first thing we should do is scrutinize the company's main website
 ## Online Presence
 - The first point of presence on the Internet may be the SSL certificate from the company's main website that we can examine.
-[Domain Info SSL](/Images/DomInfo-1.png "Domain Info SSL Certificate")
+![Domain Info SSL](/Images/DomInfo-1.png "Domain Info SSL Certificate")
