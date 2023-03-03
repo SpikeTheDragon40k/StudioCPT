@@ -17,7 +17,7 @@
 
 ![Labirinto](/Images/pentest-labyrinth.png "The squares represent the gaps/vulnerabilities.")
 
----
+***
 # Layers
 
 ## Layer No.1: Internet Presence
@@ -57,5 +57,51 @@ curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq . | grep name | cut -d":"
 ```
 ---
 
-# Cloud Resources
+# Staff Info
 
+Job Post can reveal info on team infrastructure and makeup.
+This, in turn, can lead to us identifying which technologies, programming languages, and even software applications are being used.
+Employees can be identified on various business networks such as LinkedIn or Xing. Job postings from companies can also tell us a lot about their infrastructure and give us clues about what we should be looking for.
+
+-Example:
+```
+Required Skills/Knowledge/Experience:
+
+* 3-10+ years of experience on professional software development projects.
+
+« An active US Government TS/SCI Security Clearance (current SSBI) or eligibility to obtain TS/SCI within nine months.
+« Bachelor's degree in computer science/computer engineering with an engineering/math focus or another equivalent field of discipline.
+« Experience with one or more object-oriented languages (e.g., Java, C#, C++).
+« Experience with one or more scripting languages (e.g., Python, Ruby, PHP, Perl).
+« Experience using SQL databases (e.g., PostgreSQL, MySQL, SQL Server, Oracle).
+« Experience using ORM frameworks (e.g., SQLAIchemy, Hibernate, Entity Framework).
+« Experience using Web frameworks (e.g., Flask, Django, Spring, ASP.NET MVC).
+« Proficient with unit testing and test frameworks (e.g., pytest, JUnit, NUnit, xUnit).
+« Service-Oriented Architecture (SOA)/microservices & RESTful API design/implementation.
+« Familiar and comfortable with Agile Development Processes.
+« Familiar and comfortable with Continuous Integration environments.
+« Experience with version control systems (e.g., Git, SVN, Mercurial, Perforce).
+
+Desired Skills/Knowledge/ Experience:
+
+« CompTIA Security+ certification (or equivalent).
+« Experience with Atlassian suite (Confluence, Jira, Bitbucket).
+« Algorithm Development (e.g., Image Processing algorithms).
+« Software security.
+« Containerization and container orchestration (Docker, Kubernetes, etc.)
+« Redis.
+« NumPy.
+```
+***
+
+# FTP & TFTP
+
+TFTP Commands:
+| Commands | Description |
+| ---------- | ------------ |
+| connect | Sets the remote host, and optionally the port, for file transfers. |
+| get | Transfers a file or set of files from the remote host to the local host. |
+| put | Transfers a file or set of files from the local host onto the remote host. |
+| quit | Exits tftp. |
+| status | Shows the current status of tftp, including the current transfer mode (ascii or binary), connection status, time-out value, and so on. |
+| verbose | Turns verbose mode, which displays additional information during file transfer, on or off. |

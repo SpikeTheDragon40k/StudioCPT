@@ -52,6 +52,19 @@
 
 ---
 
+[Domain.Glass](https://domain.glass/) Check domain info
+
+---
+
+[GreyHatWarfare](https://buckets.grayhatwarfare.com/) Can do many different searches, discover AWS, Azure, and GCP cloud storage, and even sort and filter by file format
+
+---
+
+[Ftp Commands](https://www.smartfile.com/blog/the-ultimate-ftp-commands-list/) Ftp command list
+
+---
+
+
 
 # Distros
 ---
