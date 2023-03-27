@@ -113,6 +113,12 @@ smbclient -N -L //$IP
 sudo nmap 10.129.9.119 -p111,2049 -sV -sC
 ```
 ---
+
+## Ffuf
+```bash
+ffuf -w ./vhosts -u http://192.168.10.10 -H "HOST: FUZZ.randomtarget.com" -fs 612
+```
+
 ## Various
 - Lista Folder
 ```bash

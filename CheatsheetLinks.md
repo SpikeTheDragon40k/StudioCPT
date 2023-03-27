@@ -80,7 +80,7 @@
 
 ---
 
-
+[ffuf](https://github.com/ffuf/ffuf) Fuff Fuzzing Tool
 
 # Distros
 ---
