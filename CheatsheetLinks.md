@@ -66,6 +66,20 @@
 
 [The Most Popular Types of DNS Attacks](https://securitytrails.com/blog/most-popular-types-dns-attacks)
 
+---
+
+[WafW00f](https://github.com/EnableSecurity/wafw00f) WAF fingerprinting tool
+
+---
+
+[Aquatone](https://github.com/michenriksen/aquatone) Automatic and visual inspection of websites across many hosts
+
+---
+
+[ZoneTransfers](https://hackertarget.com/zone-transfer/)
+
+---
+
 
 
 # Distros
