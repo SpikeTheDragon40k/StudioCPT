@@ -82,7 +82,12 @@
 
 [ffuf](https://github.com/ffuf/ffuf) Fuff Fuzzing Tool
 
+---
+
+[GTFObin](https://gtfobins.github.io/)
+
 # Distros
+
 ---
 
 [Kali](https://www.kali.org/get-kali/)
