@@ -110,7 +110,22 @@ set <option> <Value>
 ```bash
 run
 ```
-
+-Show Payloads
+```bash
+show payloads
+```
+-Set Payloads
+```bash
+set payload <no.>
+```
+-Show Target of exploit
+```bash
+show targets
+```
+-Set Targets
+```bash
+set target <index no.>
+```
 ---
 ## FTP
 - Download All Available Files
