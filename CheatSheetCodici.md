@@ -85,6 +85,33 @@ curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq .
 curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq . | grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
 ```
 ---
+## Metasploit
+- Run Metasploit CLI
+```bash
+msfconsole
+```
+-Search exploit
+```bash
+search <exploit>
+```
+-Show Exploit options
+```bash
+show options
+```
+or
+```bash
+options
+```
+-Set parameter for exploit
+```bash
+set <option> <Value>
+```
+-Run exploit
+```bash
+run
+```
+
+---
 ## FTP
 - Download All Available Files
 ```bash
