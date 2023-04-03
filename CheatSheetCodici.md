@@ -177,3 +177,5 @@ ffuf -w ./vhosts -u http://192.168.10.10 -H "HOST: FUZZ.randomtarget.com" -fs 61
 ```bash
 tree $PATH
 ```
+-Unzipping with Python and Perl
+[Unzipping W/ Py and Perl](/Unzipping_with_Python_and_Perl.md)
