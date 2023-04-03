@@ -1,5 +1,4 @@
 # Using scripting tools: Perl and Python
-Many answers here mention tools that require installation, but nobody has mentioned that two of Ubuntu's scripting languages, Perl and Python, already come with all the necessary modules that allow you to unzip a zip archive, which means you don't need to install anything else. Just use either of the two scripts presented below to do the job. They're fairly short and can even be condensed to a one-liner command if we wanted to.
 
 ## Python
 ```python
