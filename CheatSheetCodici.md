@@ -90,11 +90,11 @@ curl -s https://crt.sh/\?q\=$Domain\&output\=json | jq . | grep name | cut -d":"
 ```bash
 msfconsole
 ```
--Search exploit
+- Search exploit
 ```bash
 search <exploit>
 ```
--Show Exploit options
+- Show Exploit options
 ```bash
 show options
 ```
@@ -102,37 +102,37 @@ or
 ```bash
 options
 ```
--Set parameter for exploit
+- Set parameter for exploit
 ```bash
 set <option> <Value>
 ```
--Run exploit
+- Run exploit
 ```bash
 run
 ```
--Show Payloads
+- Show Payloads
 ```bash
 show payloads
 ```
--Set Payloads
+- Set Payloads
 ```bash
 set payload <no.>
 ```
--Show Target of exploit
+- Show Target of exploit
 ```bash
 show targets
 ```
--Set Targets
+- Set Targets
 ```bash
 set target <index no.>
 ```
--[Meterpreter Commands](/Meterpreter_Commands.md)
+- [Meterpreter Commands](/Meterpreter_Commands.md)
 
--Show Sessions
+- Show Sessions
 ```bash
 sessions
 ```
--Interact with a Session
+- Interact with a Session
 ```bash
 sessions -i [no.]
 ```
@@ -172,10 +172,17 @@ sudo nmap 10.129.9.119 -p111,2049 -sV -sC
 ffuf -w ./vhosts -u http://192.168.10.10 -H "HOST: FUZZ.randomtarget.com" -fs 612
 ```
 
+---
+
+## Hash
+
+- [Understanding Hashes](/Hash.md)
+
+
+---
 ## Various
 - Lista Folder
 ```bash
 tree $PATH
 ```
--Unzipping with Python and Perl
-[Unzipping W/ Py and Perl](/Unzipping_with_Python_and_Perl.md)
+- [Unzipping W/ Py and Perl](/Unzipping_with_Python_and_Perl.md)
