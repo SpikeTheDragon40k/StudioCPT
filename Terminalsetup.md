@@ -3,6 +3,7 @@
 apt install zsh
 ```
 ## Oh my Zsh
+[Oh My zsh](https://ohmyz.sh/)
 ```bash
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
