@@ -128,6 +128,15 @@ set target <index no.>
 ```
 -[Meterpreter Commands](/Meterpreter_Commands.md)
 
+-Show Sessions
+```bash
+sessions
+```
+-Interact with a Session
+```bash
+sessions -i [no.]
+```
+
 ---
 ## FTP
 - Download All Available Files
