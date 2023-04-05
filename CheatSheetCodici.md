@@ -204,3 +204,5 @@ or
 ```bash
 ps
 ```
+
+- [Prominent Windows Exploits](/Prominent_windows_exploits.md)
