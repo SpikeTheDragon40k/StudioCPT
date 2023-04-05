@@ -135,7 +135,7 @@ show targets
 ```bash
 set target <index no.>
 ```
-- [Meterpreter Commands](/Meterpreter_Commands.md)
+- [Meterpreter Commands](/Useful_Pages/Meterpreter_Commands.md)
 
 - Show Sessions
 ```bash
@@ -185,7 +185,7 @@ ffuf -w ./vhosts -u http://192.168.10.10 -H "HOST: FUZZ.randomtarget.com" -fs 61
 
 ## Hash
 
-- [Understanding Hashes](/Hash.md)
+- [Understanding Hashes](/Useful_Pages/Hash.md)
 
 
 ---
@@ -194,7 +194,7 @@ ffuf -w ./vhosts -u http://192.168.10.10 -H "HOST: FUZZ.randomtarget.com" -fs 61
 ```bash
 tree $PATH
 ```
-- [Unzipping W/ Py and Perl](/Unzipping_with_Python_and_Perl.md)
+- [Unzipping W/ Py and Perl](/Useful_Pages/Unzipping_with_Python_and_Perl.md)
 
 - Check shell type
 ```bash
@@ -205,4 +205,6 @@ or
 ps
 ```
 
-- [Prominent Windows Exploits](/Prominent_windows_exploits.md)
+- [Prominent Windows Exploits](/Useful_Pages/Prominent_windows_exploits.md)
+- [Terminal Setup](/Useful_Pages/Terminalsetup.md)
+- [Explanation Bin Rev Shells](/Useful_Pages/Bind_and_Reverse_Shells.md)
