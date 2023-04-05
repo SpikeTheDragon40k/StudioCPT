@@ -189,6 +189,8 @@ ffuf -w ./vhosts -u http://192.168.10.10 -H "HOST: FUZZ.randomtarget.com" -fs 61
 
 
 ---
+
+
 ## Various
 - Lista Folder
 ```bash
@@ -208,3 +210,5 @@ ps
 - [Prominent Windows Exploits](/Useful_Pages/Prominent_windows_exploits.md)
 - [Terminal Setup](/Useful_Pages/Terminalsetup.md)
 - [Explanation Bin Rev Shells](/Useful_Pages/Bind_and_Reverse_Shells.md)
+- [Tipi di Shell](/Useful_Pages/Shells.md)
+- [Cmd vs Powershell](/Useful_Pages/CMD_Vs_PS.md)
