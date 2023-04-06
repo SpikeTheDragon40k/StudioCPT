@@ -211,6 +211,13 @@ ruby: exec "/bin/sh"
 
 ---
 
+# Xfreerdp
+
+- Connect to host
+```bash
+xfreerdp /v:<ip> /u:<username> /p:<password>
+```
+
 
 ## Various
 - Lista Folder
