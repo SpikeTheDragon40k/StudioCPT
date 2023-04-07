@@ -255,6 +255,21 @@ sudo nmap 10.129.9.119 -p111,2049 -sV -sC
 ---
 
 ## Ffuf
+
+- Directory Fuzzing
+```bash
+ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://<ip>:<port>/FUZZ
+```
+- Thread Increase
+```bash
+ffuf -w <wordlist>:FUZZ -u http://<ip>:<port>/FUZZ -t <threads>
+```
+-Subdomain Fuzzing
+```bash
+ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ -u https://FUZZ.<target>/
+```
+
+- Fuzzing Vhosts
 ```bash
 ffuf -w ./vhosts -u http://192.168.10.10 -H "HOST: FUZZ.randomtarget.com" -fs 612
 ```
