@@ -240,7 +240,7 @@ ps
 - [Explanation Bin Rev Shells](/Useful_Pages/Bind_and_Reverse_Shells.md)
 - [Tipi di Shell](/Useful_Pages/Shells.md)
 - [Cmd vs Powershell](/Useful_Pages/CMD_Vs_PS.md)
-
+- [Upgrade a Shell](/Useful_Pages/Uprading_shell.md)
 
 
 
