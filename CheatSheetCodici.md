@@ -162,7 +162,7 @@ use auxiliary/scanner/smb/smb_login
 #### [Example of SMB Bruteforce](/Examples/Example_Bruteforcing_Msfconsole.md)
 
 ---
-# [CrackMapExec](https://github.com/Porchetta-Industries/CrackMapExec)
+## [CrackMapExec](https://github.com/Porchetta-Industries/CrackMapExec)
 - Usage
 ```bash
 crackmapexec <proto> <target-IP> -u <user or userlist> -p <password or passwordlist>
@@ -173,11 +173,27 @@ crackmapexec smb <target-IP> -u "user" -p "password" --shares
 ```
 #### [Example output](/Examples/Example_Crackmapexec_smbShares.md)
 ---
-# [Evil-WinRM](https://github.com/Hackplayers/evil-winrm)
+## [Evil-WinRM](https://github.com/Hackplayers/evil-winrm)
 - Usage
 ```bash
 evil-winrm -i <target-IP> -u <username> -p <password>
 ```
+## Hashcat
+- Mutate a password using a custom rule.
+```bash
+hashcat --force password.list -r custom.rule --stdout | sort -u > mut_password.list
+```
+- Where to find existing rules
+```bash
+ls /usr/share/hashcat/rules/
+```
+---
+## [CeWL](https://github.com/digininja/CeWL)
+Scans potential words from the company's website and save them in a separate list.
+```bash
+cewl https://www.inlanefreight.com -d 4 -m 6 --lowercase -w inlane.wordlist
+```
+
 ---
 ## FTP
 - Download All Available Files
