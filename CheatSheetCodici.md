@@ -37,8 +37,18 @@ gobuster dir -u http://$IP --wordlist $Wordlist
 ---
 ## Hydra
 ---
-
-
+- Usage ssh
+```bash
+hydra -L user.list -P password.list ssh://<ip>
+```
+- Usage RDP
+```bash
+hydra -L user.list -P password.list rdp://<ip>
+```
+- Usage SMB
+```bash
+hydra -L user.list -P password.list smb://<ip>
+```
 
 ---
 ## Netcat
@@ -145,7 +155,29 @@ sessions
 ```bash
 sessions -i [no.]
 ```
+- Bruteforce SMB Login
+```bash
+use auxiliary/scanner/smb/smb_login
+```
+#### [Example of SMB Bruteforce](/Examples/Example_Bruteforcing_Msfconsole.md)
 
+---
+# [CrackMapExec](https://github.com/Porchetta-Industries/CrackMapExec)
+- Usage
+```bash
+crackmapexec <proto> <target-IP> -u <user or userlist> -p <password or passwordlist>
+```
+- View Available SMB shares and what privilages an account have
+```bash
+crackmapexec smb <target-IP> -u "user" -p "password" --shares
+```
+#### [Example output](/Examples/Example_Crackmapexec_smbShares.md)
+---
+# [Evil-WinRM](https://github.com/Hackplayers/evil-winrm)
+- Usage
+```bash
+evil-winrm -i <target-IP> -u <username> -p <password>
+```
 ---
 ## FTP
 - Download All Available Files
@@ -159,6 +191,11 @@ ls -R
 ```
 ---
 ## SMB (Samba)
+
+- Connect with smbclient
+```bash
+smbclient -U user \\\\<ip>\\SHARENAME
+```
 
 - Get Smb config
 ```bash
