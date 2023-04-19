@@ -1,9 +1,52 @@
-# Studio CPT  --- Hack The box
----
-![HTB LOGO](/Images/Htbacademy.png "HTB Academy")
+# Table of Content
 
-Repos per appunti studio CPT
+## Arguments
+- [Cheatsheet Codes](/CheatsheetCodici.md)
+- [Cheatsheet Links](/CheatsheetLinks.md)
+- [Footprinting](/Footprinting/Footprinting.md)
+    - [Footprinting DNS](/Footprinting/DNS.md)
+    - [Footprinting FTP](/Footprinting/FTP.md)
+    - [Footprinting SMB](/Footprinting/SMB.md)
+    - [Footprinting SMTP](/Footprinting/SMTP.md)
+    - [Footprinting NFS](/Footprinting/NFS.md)
+- [Unzipping W/ Py and Perl](/Useful_Pages/Unzipping_with_Python_and_Perl.md)
+- [Linux Fundamentals](/Linux_Fundamentals/)
+- [Prominent Windows Exploits](/Useful_Pages/Prominent_windows_exploits.md)
+- [Terminal Setup](/Useful_Pages/Terminalsetup.md)
+- [Explanation Bin Rev Shells](/Useful_Pages/Bind_and_Reverse_Shells.md)
+- [Tipi di Shell](/Useful_Pages/Shells.md)
+- [Cmd vs Powershell](/Useful_Pages/CMD_Vs_PS.md)
+- [Upgrade a Shell](/Useful_Pages/Uprading_shell.md)
+- [Attacking LSASS](/Useful_Pages/Attacking_LSASS.md)
+- [Attacking AD & NTDS.dit](/Useful_Pages/Attacking_AD_and_NTDS.dit.md)
+- [Credential Hunting in Windows](/Useful_Pages/Credential_Hunting_Windows.md)
+- [Credential Hunting in Linux](/Useful_Pages/Credential_Hunting_Linux.md)
+- [Passwd, Shadow & Opasswd in Unix](/Useful_Pages/Passwd_Shadow_Opasswd.md)
+- [Cracking Linux Credentials](/Useful_Pages/Cracking_Linux_Credentials.md)
+- [Pass The Hash Windows](/Useful_Pages/Pass_the_Hash_Win.md)
+- [Pass The Hash Linux](/Useful_Pages/Pass_the_Hash_Linux.md)
+- [Pass The Ticket From Windows](/Useful_Pages/Pass_the_Ticket_from_Windows.md)
+- [Pass The Ticket From Linux](/Useful_Pages/Pass_the_Ticket_from_Linux.md)
+- [Protected File Password Attacks](/Useful_Pages/Protected_Files_Password_Attacks.md)
+- [Protected Archives Password Attacks](/Useful_Pages/Protected_Archives_Password_Attacks.md)
+- [Attacking Common Services](/Useful_Pages/Attacking_Common_Services.md)
+- [Linux Fundamentals](/Linux_Fundamentals/)
+    - [System Information](/Linux_Fundamentals/1-System%20Information.md)
+    - [Navigation](/Linux_Fundamentals/2-Navigation.md)
+    - [Working With Files and Directories](/Linux_Fundamentals/3-Working%20with%20Files%20and%20Directories.md)
+    - [User Management](/Linux_Fundamentals/4-User%20Management.md)
+    - [File Description and Redirections](/Linux_Fundamentals/5-File%20Descriptors%20and%20Redirections.md)
+    - [Filter Contents](/Linux_Fundamentals/6-Filter%20Contents.md)
+    - [Editing Files](/Linux_Fundamentals/7-Editing%20Files.md)
+    - [Find Files and Directories](/Linux_Fundamentals/8-Find%20Files%20and%20Directories.md)
+    - [Permission Management](/Linux_Fundamentals/9-Permission%20Management.md)
+    - [Linux Security](/Linux_Fundamentals/10-Linux%20Security.md)
+    - [Services and Process Management](/Linux_Fundamentals/11-Service%20and%20Process%20Management.md)
+    - [Package Management](/Linux_Fundamentals/12-Package%20Management.md)
+    - [Shortcuts](/Linux_Fundamentals/B-Shortcuts.md)
 
----
+## Examples
 
-[Sintassi Markdown](https://www.markdownguide.org/basic-syntax/)
+- [Bruteforcing SMB with Msfconsole](/Examples/Example_Bruteforcing_Msfconsole.md)
+- [CrackMapExec Smb Shares](/Examples/Example_Crackmapexec_smbShares.md)
+- [SAM Stealing](/Examples/Example_SAM_Stealing.md)

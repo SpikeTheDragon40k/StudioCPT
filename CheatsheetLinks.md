@@ -96,11 +96,38 @@
 
 ---
 
-[]()
+[Vulnhub](https://www.vulnhub.com/) Website with vulnerable vms.
 
 ---
 
+[Username-Anarchy](https://github.com/urbanadventurer/username-anarchy) Tools for generating usernames when penetration testing. 
+> Usernames are half the password brute force problem.
 
+---
+
+[LaZagne Project](https://github.com/AlessandroZ/LaZagne) The LaZagne project is an open source application used to retrieve lots of passwords stored on a local computer.
+
+---
+
+[Mimipenguin](https://github.com/huntergregal/mimipenguin) A tool to dump the login password from the current linux desktop user.
+
+---
+
+[Firefox Decrypt](https://github.com/unode/firefox_decrypt) Firefox Decrypt is a tool to extract passwords from profiles of Mozilla (Fire/Water)fox, Thunderbird, SeaMonkey and derivates.
+
+---
+
+[Protected Files](https://fileinfo.com/filetypes/encoded)List of different file extensions to identify encrypted/encoded files.
+
+--
+
+[Compressed Archives](https://fileinfo.com/filetypes/compressed)List of different file extensions to identify compressed files.
+
+--
+
+[Evolution](https://wiki.gnome.org/Apps/Evolution) Evolution is a personal information management application that provides integrated mail, calendaring and address book functionality.
+
+---
 
 # Distros
 
@@ -125,3 +152,4 @@
 [BlackArch](https://blackarch.org/)
 
 ---
+
