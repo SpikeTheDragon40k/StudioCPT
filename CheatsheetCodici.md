@@ -29,7 +29,7 @@ sudo nmap $IP -sV -sC -p139,445
 ---
 ## Gobuster
 ---
-- Gobuster Dir
+- Gobuster Dir.
 
 ```bash
 gobuster dir -u http://$IP --wordlist $Wordlist
