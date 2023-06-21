@@ -72,10 +72,6 @@
 
 ---
 
-[Aquatone](https://github.com/michenriksen/aquatone) Automatic and visual inspection of websites across many hosts
-
----
-
 [ZoneTransfers](https://hackertarget.com/zone-transfer/)
 
 ---
@@ -101,7 +97,6 @@
 ---
 
 [Username-Anarchy](https://github.com/urbanadventurer/username-anarchy) Tools for generating usernames when penetration testing. 
-> Usernames are half the password brute force problem.
 
 ---
 
@@ -119,15 +114,50 @@
 
 [Protected Files](https://fileinfo.com/filetypes/encoded)List of different file extensions to identify encrypted/encoded files.
 
---
+---
 
 [Compressed Archives](https://fileinfo.com/filetypes/compressed)List of different file extensions to identify compressed files.
 
---
+---
 
 [Evolution](https://wiki.gnome.org/Apps/Evolution) Evolution is a personal information management application that provides integrated mail, calendaring and address book functionality.
 
 ---
+
+[LinEnum](https://github.com/rebootuser/LinEnum) Linux enumeration for privesc.
+
+---
+
+[Linux Smart Enumeration - LSE.sh](https://github.com/diego-treitos/linux-smart-enumeration) This shell script will show relevant information about the security of the local Linux system, helping to escalate privileges.
+Usage: [LSE-Usage](/Useful_Pages/LSE.md)
+
+---
+
+[PwnXSS](https://github.com/pwn0sec/PwnXSS) A powerful XSS scanner made in python 3.7
+
+---
+
+[LYNIS](https://github.com/CISOfy/lynis) One useful tool for auditing Unix-based systems
+
+---
+
+[EyeWitness](https://github.com/RedSiege/EyeWitness) - EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known.
+
+---
+
+[Acquatone](https://github.com/michenriksen/aquatone) - Aquatone is a tool for visual inspection of websites across a large amount of hosts and is convenient for quickly gaining an overview of HTTP-based attack surface.
+
+---
+
+[Ghostwriter](https://github.com/GhostManager/Ghostwriter) - Ghostwriter is a Django-based web application designed to be used by an individual or a team of red team operators. The platform tracks and manages client and project information, covert infrastructure assets (e.g., servers and domain names), finding templates, report templates, evidence files, and more.
+
+---
+
+[WriteHat](https://github.com/blacklanternsecurity/writehat) - WriteHat is a reporting tool which removes Microsoft Word (and many hours of suffering) from the reporting process. Markdown --> HTML --> PDF. Created by penetration testers, for penetration testers - but can be used to generate any kind of report. Written in Django (Python 3).
+
+---
+
+
 
 # Distros
 
