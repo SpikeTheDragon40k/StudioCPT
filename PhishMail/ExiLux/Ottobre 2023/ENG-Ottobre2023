@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">body {
+            margin: 20px;
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .container {
+            width: 600px;
+        }
+	</style>
+</head>
+<body><!--[if mso]>
+<style type="text/css">
+    body, table, td {
+        font-family: sans-serif !important;
+    }
+</style>
+<![endif]-->
+<center>
+<table cellpadding="0" cellspacing="0" class="container">
+	<tbody>
+		<tr>
+			<td style="padding: 20px;"><span style="font: lighter 47px Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;">Hello</span>
+			<p>%FIRSTNAME% %LASTNAME%<br />
+			<br />
+			<strong>Your messages are now queued up and pending delivery because your email has not been verified,you are required to confirm your email account to restore normal email delivery.</strong></p>
+
+			<p>&nbsp;</p>
+
+			<div><!--[if mso]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href=" " style="height:40px;v-text-anchor:left;width:500px;" stroke="f" fillcolor="#0f6dd2">
+    <w:anchorlock/>
+    <center>
+  <![endif]--><a href=" " style="background-color:#0f6dd2;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:left;text-decoration:none;width:500px;-webkit-text-size-adjust:none;padding-left: 20px">Confirm %EMAIL%</a> <!--[if mso]>
+    </center>
+  </v:rect>
+<![endif]--></div>
+			&nbsp;
+
+			<p>&nbsp;</p>
+
+			<p>Please note:</p>
+
+			<ul>
+				<li>Login with your email and password to confirm, be sure to do so in a safe and secure manner.</li>
+			</ul>
+
+			<p>Once Verified Your Email Delivery Would Be Working In Less Than 2 Hours.</p>
+
+			<p>Sincerely,<br />
+			Email Gateway</p>
+
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 20px; font-size: 12px; background-color: #EBEBEB;">
+			<p>This is a mandatory service communication for %EMAIL%</p>
+
+			<p>This message was sent from an unmonitored e-mail address. Please do not reply to this message.<br />
+			<a href="">Privacy</a> | <a href="">Legal</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</center>
+</body>
+</html>

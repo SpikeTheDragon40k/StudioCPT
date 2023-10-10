@@ -12,6 +12,6 @@
 | 2023 | Luglio | micrasoft-395office.com |  |
 | 2023 | Agosto | corp-internal.org |  |
 | 2023 | Settembre | techsupport-corp.net | Email shutdown Request |	
-| 2023 | Ottobre |  |  |
-| 2023 | Novembre |  |  |
+| 2023 | Ottobre | micrasoft-395office.com | Queued Emails |
+| 2023 | Novembre | meeting-reminder.net | Added to new team in planner	 |
 | 2023 | Dicembre |  |  |
