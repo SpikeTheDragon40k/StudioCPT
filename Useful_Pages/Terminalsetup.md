@@ -27,3 +27,4 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 
 - [Zsh Handy Helper](https://github.com/jhwohlgemuth/zsh-handy-helpers)
 
+- [Pentester Framework](https://github.com/trustedsec/ptf)

