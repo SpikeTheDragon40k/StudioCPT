@@ -95,3 +95,6 @@ This is my GitHub repository for all the notes I took during my studies in Cyber
 - [Inveigh](/Tools_in_Use/Inveigh_inUse.md)
 
 >By **SpikeTheDragon(Adriano Inghingolo)** **[1](https://github.com/SpikeTheDragon40k)** / **[2](https://github.com/AdrianoInghingoloHWG)**
+
+
+All rights and credits reserved to the respective authors of the tools and scripts used in this repository.
