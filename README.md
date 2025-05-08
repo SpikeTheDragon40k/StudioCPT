@@ -1,4 +1,7 @@
 # Table of Content
+
+This is my GitHub repository for all the notes I took during my studies in Cybersecurity. The notes are organized into different sections, each covering a specific topic or tool. 
+
 ---
 
 - [Cheatsheet Codes](/CheatsheetCodici.md)
